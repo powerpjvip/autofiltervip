@@ -29,10 +29,10 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/cosmic_freak")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001924525864'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movie7xchat')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001982419675').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://power:power@cluster0.ncgr0eh.mongodb.net/?retryWrites=true&w=majority")
 
 #Auto approve 
-CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
+CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1001785255892').split()]
 TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @codflix_bots</b>")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
