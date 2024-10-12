@@ -15,7 +15,7 @@ from aiohttp import web
 from plugins import web_server, check_expired_premium
 import time
 
-pyrogram.utils.MIN_CHANNEL_ID = -1001785255892
+pyrogram.utils.MIN_CHANNEL_ID = -1001982419675
 
 class Bot(Client):
     def __init__(self):
