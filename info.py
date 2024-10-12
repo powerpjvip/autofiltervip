@@ -24,7 +24,7 @@ START_IMG = environ.get('START_IMG', 'https://graph.org/file/208ae1ffacc082167db
 QR_CODE = environ.get('QR_CODE', '')
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7263304305').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1112773045').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/cosmic_freak")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001924525864'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movie7xchat')
@@ -33,7 +33,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://power:power@cluster0.n
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1001785255892').split()]
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @codflix_bots</b>")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @gpsccrackzone</b>")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 #chatgptAI
@@ -54,8 +54,8 @@ FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001868871195'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_Download_7x/35")
-SHORTENER_API = environ.get("SHORTENER_API", "")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", '')
+SHORTENER_API = environ.get("SHORTENER_API", "onepagelink.in")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", '3206b86dfacabd77d0181a7d8aa9e015ca491e4d')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "")
