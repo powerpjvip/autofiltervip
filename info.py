@@ -17,7 +17,7 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', '10551685'))
 API_HASH = environ.get('API_HASH', '477dff815fdc7cba803c1bc02c459d03')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7139885289:AAFtI2rHZ71IUH8b0aU6XRbTN6Y3aTvPnFo')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7139885289:AAGmOgfJiEgULMBwED0C_JefJXbx1Bywoxc')
 
 PICS = (environ.get('PICS', 'https://graph.org/file/e9bba54527096fb059fdc.jpg https://graph.org/file/6a1aa4430390717e26e93.jpg')).split() #SAMPLE PIC
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/208ae1ffacc082167dbc4.jpg')
