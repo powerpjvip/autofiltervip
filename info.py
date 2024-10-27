@@ -24,7 +24,7 @@ START_IMG = environ.get('START_IMG', 'https://graph.org/file/208ae1ffacc082167db
 QR_CODE = environ.get('QR_CODE', '')
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1112773045').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7263304305 1112773045').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/cosmic_freak")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001924525864'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+8kb0jWEQfmQxYWI9')
